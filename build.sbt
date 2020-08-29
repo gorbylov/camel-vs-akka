@@ -8,7 +8,7 @@ ThisBuild / organizationName := "example"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "camel-test",
+    name := "camel-vs-akka",
     libraryDependencies += camel,
     libraryDependencies += `camel-rest`,
     libraryDependencies += `camel-netty`,
